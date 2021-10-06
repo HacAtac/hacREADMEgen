@@ -2,6 +2,9 @@
 const fs = require('fs');
 // Install the `inquirer` dependency HERE
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
+const { writeReadMe } = require('./utils/writereadme');
+
 // TODO: Create an array of questions for user input
 //const questions = [];
 const promptUser = () => {
@@ -9,8 +12,8 @@ const promptUser = () => {
     return inquirer.prompt ([
         {
             type: 'input',
-            name: 'Title',
-            message: 'What is the title of your application? (Required)',
+            name: 'title',
+            message: 'What is the title of your README? (Required)',
             validate: titleInput => {
                 if (titleInput) {
                 return true;
@@ -23,7 +26,7 @@ const promptUser = () => {
 
         {
             type: 'input',
-            name: 'Description',
+            name: 'description',
             message: 'Enter your description here (Required)',
             validate: descInput => {
                 if (descInput) {
@@ -36,8 +39,8 @@ const promptUser = () => {
         },
 
         {
-            type: 'input',
-            name: 'instructions',
+            type: 'text',
+            name: 'install',
             message: 'Enter install instructions please. (Required)',
             validate: instructionInput => {
                 if (instructionInput) {
@@ -77,10 +80,16 @@ const promptUser = () => {
                 }
             }
         },
+        
+        {
+            type: 'input',
+            name: 'contribute',
+            message: 'Contributing instructions here:'
+        },
 
         {
             type: 'input',
-            name: 'link',
+            name: 'instructions',
             message: 'Test Instructions',
             validate: testInput => {
                 if (testInput) {
@@ -90,17 +99,49 @@ const promptUser = () => {
                     return false;
                 }
             }
+        },
+
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?'
+        },
+
+        {
+            type: 'input',
+            name: 'credits',
+            message: 'Who contributed to making this project?'
+        },
+
+        {
+            type: 'checkbox',
+            name: 'licence',
+            message: 'What is the license for this project?',
+            choices: ['MIT', 'MIT', 'MIT', 'MIT']
         }
         
     ])
 };
 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
+// TODO: Create a function to write README file
+//function writeToFile(fileName, data) {
+//}
+// fs.writeFile('./dist/README.md', err => {
+    //if (err) throw err;
+    //console.log('File has been saved');
+//})
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    promptUser()
+        .then(questionsData => {
+            return generateMarkdown(questionsData);
+        })
+        .then(writeMarkDown => {
+            return writeReadMe(writeMarkDown);
+        })
+}
 
 // Function call to initialize app
 init();
