@@ -36,21 +36,21 @@ function generateMarkdown(data) {
   ## Languages Used <a id="languages></a>"
     ${data.languages}
   ## License <a id="licence"></a>
-    
+    ${data.licence}
   ## Contributing <a id="contributing"></a>
-
-  ## Tests <a id="tests"></a>
-
+    ${data.contribute}
+  ## Test Instructions <a id="tests"></a>
+    ${data.instructions}
   ## Questions <a id ="questions"></a>
-  
+    ${data.questions}
+    [Github Link](https://github.com/${data.link})
+    [Email Adress] ${data.email}
   ## Github: 
-  [Github Link](https://github.com/${data.github})
+    ${data.link}
+ 
   ## Email:
       ${data.email}
-      
-  ## ${data.link}
-  ## Instructions
-    ${data.instructions}
+
 `;
 }
 
