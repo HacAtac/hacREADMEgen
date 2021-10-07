@@ -1,38 +1,33 @@
 
-  # aldskfjasldkfasdklfj
-  
+  # chiefy
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-    alksdjfalsk;adskflj
+    best boy
   
   ## Table of contents
   - [Installation](#install)
   - [Languages](#languages)
-  - [License](#licence)
+  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   
-  
-
-
-  ## Installation <a id="install></a>
-    aasdfasdf
-  ## Languages Used <a id="languages></a>"
+  ## Installation 
+    do the th ing then the second thing
+  ## Languages Used 
     JavaScript
-  ## License <a id="licence"></a>
+  
+  ## License 
     MIT
-  ## Contributing <a id="contributing"></a>
-    al;djfaslkdfj
-  ## Test Instructions <a id="tests"></a>
-    adsfasdsfad
-  ## Questions <a id ="questions"></a>
-    undefined
-    hacatac
+
+  ## Contributing 
+    fork th en push update
+  ## Test Instructions 
+    first then second then third
+  ## Questions 
+  Can reach me at following info:
     [Github Link](https://github.com/hacatac)
     [Email Adress] jhack00@icloud.com
   ## Github: 
     hacatac
- 
-  ## Email:
-      jhack00@icloud.com
 

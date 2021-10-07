@@ -107,17 +107,17 @@ const promptUser = () => {
             message: 'What is your email address?'
         },
 
-        {
-            type: 'input',
-            name: 'credits',
-            message: 'Who contributed to making this project?'
-        },
+        //{
+           // type: 'input',
+            //name: 'credits',
+            //message: 'Who contributed to making this project?'
+        //},
 
         {
-            type: 'checkbox',
-            name: 'licence',
+            type: 'list',
+            name: 'license',
             message: 'What is the license for this project?',
-            choices: ['MIT', 'MIT', 'MIT', 'MIT']
+            choices: ['MIT', 'Apache', 'Boost', 'none']
         }
         
     ])
