@@ -10,14 +10,15 @@
    <li>Then I've utilized fs require to utilize certain packages and files to connect eachother</li>
    <li>I then have used template literals with ${to target certain parameters to pass through} for a quality README.md generator</li>
    <li>All and all I feel pretty good about this project of mine and am looking forward to the next!</li>
-
+   
+   <h3>Link to GitHub Repo:</h3>
    <a href = "https://github.com/HacAtac/hacREADMEgen"
    target="_blank">Link to my git hub application.</a></br>
    
-   <h3>Description of walkthrough video:
-   <p>This video will show a walkthrough of my README.md gen in action! And will inform you of needed information regarding this app.</p></h3>
+   <h3>Description of walkthrough video:</h3>
+   <p>This video will show a walkthrough of my README.md gen in action! And will inform you of needed information regarding this app.</p>
    <a href = "https://watch.screencastify.com/v/1ypPHkz1dwpFyILmKKjS"
-   target="_blank">Link to my walkthrough video with screencastify..</a></br>
+   target="_blank">Link to my walkthrough video with screencastify..</a>
 
    <h3>Screenshot of application that has been generated</h3>
    
