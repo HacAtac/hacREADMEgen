@@ -52,7 +52,7 @@ function generateMarkdown(data) {
     ${description}
   
   ## Table of contents
-  - [Installation](#install)
+  - [Installation](#installation)
   - [Languages](#languages)
   ${renderLicenseLink(license)}
   - [Contributing](#contributing)
@@ -61,22 +61,23 @@ function generateMarkdown(data) {
   
   ## Installation 
     ${install}
-  ## Languages Used 
+  
+  ## Languages 
     ${languages}
   
   ${renderLicenseSection(license)}
 
   ## Contributing 
     ${contribute}
-  ## Test Instructions 
+  
+  ## Tests 
     ${instructions}
+  
   ## Questions 
   Can reach me at following info:
     [Github Link](https://github.com/${link})
     [Email Adress] ${email}
-  
-
-`;
+  `;
 }
 
 module.exports = generateMarkdown;

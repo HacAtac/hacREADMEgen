@@ -1,11 +1,11 @@
 
-  # chiefy
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # hacREADMEgen
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   ## Description
-    best boy
+    simple read me gen
   
   ## Table of contents
-  - [Installation](#install)
+  - [Installation](#installation)
   - [Languages](#languages)
   - [License](#license)
   - [Contributing](#contributing)
@@ -13,21 +13,22 @@
   - [Questions](#questions)
   
   ## Installation 
-    do the th ing then the second thing
-  ## Languages Used 
-    JavaScript
+    follow insctuctions
+  
+  ## Languages 
+    ES6,Node
   
   ## License 
-    MIT
+    Boost
 
   ## Contributing 
-    fork th en push update
-  ## Test Instructions 
-    first then second then third
+    yessir!
+  
+  ## Tests 
+    ooo yes
+  
   ## Questions 
   Can reach me at following info:
-    [Github Link](https://github.com/hacatac)
+    [Github Link](https://github.com/hacAtac)
     [Email Adress] jhack00@icloud.com
-  ## Github: 
-    hacatac
-
+  
