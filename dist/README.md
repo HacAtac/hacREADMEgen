@@ -1,34 +1,34 @@
 
-  # JH Realtor
+  # HacAtac's Excel to JSON converter
   [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   ## Description
-    This application was a personal project of mine to utilize a new tech stack. It has Admin Panel functionality, CRUD on 3 different models, deployed to the CLOUD with a real URL, pagination, search functionality, and automatic emails on form submission. Was a fun and great project
+    Greetings, this is a nice and simple application that will take your excel spreadsheet and convert it to a JSON object so that you can use it in your applications, this will save you loads of time so that if the spreadsheets are large, you don't haft to enter each one into your DB. 
   
   ## Table of contents
   - [Installation](#installation)
-  - [Languages](#languages)
+  - [Technologies](#technologies)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation 
-    Clone or fork, assuming you have PYTHON installed, run PY manage.py runserver to start server and go to local host on port 8000. I've installed the deps on venv so you should't haft to install them.
+    After you clone or fork repo, run `npm i` in the root directory.
   
-  ## Languages 
-    HTML,CSS,jQuery,Bootstrap
+  ## Technologies 
+    
   
   ## License 
     Boost
 
   ## Contributing 
-    If you'd like to contribute, please reach out to me and I can get you started.
+    If you'd like to contribute, please reach out to me.
   
   ## Tests 
-    I haven't set up unit tests yet but the application works well.
+    As of now, I don't have any unit testing set up.
   
   ## Questions 
   Can reach me at following info:
-    [Github Link](https://github.com/https://github.com/HacAtac/hacPython)
+    [Github Link](https://github.com/https://github.com/HacAtac/excelToJson)
     [Email Adress] jhackworth00@outlook.com
   
